@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Jeremy Lu</title>
+    <link>https://jerlomy4ever.github.io/project/</link>
+      <atom:link href="https://jerlomy4ever.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jerlomy4ever.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://jerlomy4ever.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>RRT*</title>
+      <link>https://jerlomy4ever.github.io/project/motionplanning/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://jerlomy4ever.github.io/project/motionplanning/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Computed a collision-free path for a robot’s arm with RRT* (rapidly-exploring random tree star) such that the arm
+reaches the goal without hitting any obstacle. Created a plugin for OpenRAVE in C++ to accelerate.&lt;/p&gt;
+&lt;p&gt;The code repository is &lt;a href=&#34;https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SuMaEM</title>
+      <link>https://jerlomy4ever.github.io/project/mobilerobot/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://jerlomy4ever.github.io/project/mobilerobot/</guid>
+      <description>
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-fig-1-two-pathway&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/mobilerobot/model_hub091be80851835e75a306fa40ced3c51_132875_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Fig. 1 Two Pathway&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/mobilerobot/model_hub091be80851835e75a306fa40ced3c51_132875_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1447&#34; height=&#34;258&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Fig. 1 Two Pathway
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We develop the learning architecture that can effectively complete the dense depth from a &lt;strong&gt;color image&lt;/strong&gt; and &lt;strong&gt;sparse LiDAR&lt;/strong&gt; data.&lt;/p&gt;
+&lt;p&gt;Our model consists of two pathways: the &lt;strong&gt;local pathway&lt;/strong&gt; and the &lt;strong&gt;global pathway&lt;/strong&gt; which is illustrated in Fig 1. The local pathway aims to extract high-resolution features, and it is made up of 2D blocks, which is illustrated in Fig. 2(b). The global pathway extracts low-resolution features, and it comprises our proposed U-Block, as shown in Fig. 2(a). The structure of the pathway is illustrated in Fig 3.&lt;/p&gt;
+&lt;p&gt;Also, we improve the performance of the local pathway by concatenating binary mask to the sparse LiDAR data, because the binary mask can help our model to indicate the valid values of sparse LiDAR data.&lt;/p&gt;
+&lt;p&gt;Finally, to combine the results of the local and global pathways, we apply the attention mechanism (confidence map) to integrate the predicted dense from two pathways.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/mobilerobot/block_hu922115f2cce0253891fdc0c9bc258a3e_102105_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/mobilerobot/block_hu922115f2cce0253891fdc0c9bc258a3e_102105_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;820&#34; height=&#34;916&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/mobilerobot/pathway_struct_hu03d0f890e4e8dae97626cedc805029f3_46223_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/mobilerobot/pathway_struct_hu03d0f890e4e8dae97626cedc805029f3_46223_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;628&#34; height=&#34;259&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/mobilerobot/confidence_hued1855982abea2ceaf54041f840b4b65_310521_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/mobilerobot/confidence_hued1855982abea2ceaf54041f840b4b65_310521_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;638&#34; height=&#34;794&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/mobilerobot/performance_huf40a28e0240eb1fa4c698af5b2c444f2_26685_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/mobilerobot/performance_huf40a28e0240eb1fa4c698af5b2c444f2_26685_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;555&#34; height=&#34;227&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The code repository is &lt;a href=&#34;https://github.com/jerlomy4ever/Depth-Completion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Depth Completion</title>
+      <link>https://jerlomy4ever.github.io/project/cv/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jerlomy4ever.github.io/project/cv/</guid>
+      <description>
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-fig-1-two-pathway&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/cv/model_hub091be80851835e75a306fa40ced3c51_132875_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Fig. 1 Two Pathway&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/cv/model_hub091be80851835e75a306fa40ced3c51_132875_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1447&#34; height=&#34;258&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Fig. 1 Two Pathway
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We develop the learning architecture that can effectively complete the dense depth from a &lt;strong&gt;color image&lt;/strong&gt; and &lt;strong&gt;sparse LiDAR&lt;/strong&gt; data.&lt;/p&gt;
+&lt;p&gt;Our model consists of two pathways: the &lt;strong&gt;local pathway&lt;/strong&gt; and the &lt;strong&gt;global pathway&lt;/strong&gt; which is illustrated in Fig 1. The local pathway aims to extract high-resolution features, and it is made up of 2D blocks, which is illustrated in Fig. 2(b). The global pathway extracts low-resolution features, and it comprises our proposed U-Block, as shown in Fig. 2(a). The structure of the pathway is illustrated in Fig 3.&lt;/p&gt;
+&lt;p&gt;Also, we improve the performance of the local pathway by concatenating binary mask to the sparse LiDAR data, because the binary mask can help our model to indicate the valid values of sparse LiDAR data.&lt;/p&gt;
+&lt;p&gt;Finally, to combine the results of the local and global pathways, we apply the attention mechanism (confidence map) to integrate the predicted dense from two pathways.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/cv/block_hu922115f2cce0253891fdc0c9bc258a3e_102105_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/cv/block_hu922115f2cce0253891fdc0c9bc258a3e_102105_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;820&#34; height=&#34;916&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/cv/pathway_struct_hu03d0f890e4e8dae97626cedc805029f3_46223_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/cv/pathway_struct_hu03d0f890e4e8dae97626cedc805029f3_46223_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;628&#34; height=&#34;259&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/cv/confidence_hued1855982abea2ceaf54041f840b4b65_310521_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/cv/confidence_hued1855982abea2ceaf54041f840b4b65_310521_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;638&#34; height=&#34;794&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/cv/performance_huf40a28e0240eb1fa4c698af5b2c444f2_26685_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/cv/performance_huf40a28e0240eb1fa4c698af5b2c444f2_26685_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;555&#34; height=&#34;227&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The code repository is &lt;a href=&#34;https://github.com/jerlomy4ever/Depth-Completion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vehicle Control</title>
+      <link>https://jerlomy4ever.github.io/project/selfdriving/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jerlomy4ever.github.io/project/selfdriving/</guid>
+      <description>
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-fig-1-the-vehicle-path-at-the-corner-br-the-red-dots-are-the-central-line-of-the-track-and-the-rectangle-is-the-obstaclebr--the-blue-line-is-the-vehcle-path&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/selfdriving/corner_hu6fc18a2d765f8ff78a9aac314412fcfc_70131_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Fig. 1 The vehicle path at the corner. &amp;lt;br /&amp;gt;The red dots are the central line of the track and the rectangle is the obstacle.&amp;lt;br /&amp;gt; The blue line is the vehcle path.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/selfdriving/corner_hu6fc18a2d765f8ff78a9aac314412fcfc_70131_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1220&#34; height=&#34;930&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Fig. 1 The vehicle path at the corner. &lt;br /&gt;The red dots are the central line of the track and the rectangle is the obstacle.&lt;br /&gt; The blue line is the vehcle path.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Simulated vehicle driving in Matlab to race on predefined track and avoid random obstacles. Applied bicycle model and MPC (Model Predictive Control) for motion planning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

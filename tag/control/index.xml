@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Control | Jeremy Lu</title>
+    <link>https://jerlomy4ever.github.io/tag/control/</link>
+      <atom:link href="https://jerlomy4ever.github.io/tag/control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Control</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jerlomy4ever.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Control</title>
+      <link>https://jerlomy4ever.github.io/tag/control/</link>
+    </image>
+    
+    <item>
+      <title>RRT*</title>
+      <link>https://jerlomy4ever.github.io/project/motionplanning/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://jerlomy4ever.github.io/project/motionplanning/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Computed a collision-free path for a robot’s arm with RRT* (rapidly-exploring random tree star) such that the arm
+reaches the goal without hitting any obstacle. Created a plugin for OpenRAVE in C++ to accelerate.&lt;/p&gt;
+&lt;p&gt;The code repository is &lt;a href=&#34;https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vehicle Control</title>
+      <link>https://jerlomy4ever.github.io/project/selfdriving/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jerlomy4ever.github.io/project/selfdriving/</guid>
+      <description>
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-fig-1-the-vehicle-path-at-the-corner-br-the-red-dots-are-the-central-line-of-the-track-and-the-rectangle-is-the-obstaclebr--the-blue-line-is-the-vehcle-path&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jerlomy4ever.github.io/project/selfdriving/corner_hu6fc18a2d765f8ff78a9aac314412fcfc_70131_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Fig. 1 The vehicle path at the corner. &amp;lt;br /&amp;gt;The red dots are the central line of the track and the rectangle is the obstacle.&amp;lt;br /&amp;gt; The blue line is the vehcle path.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://jerlomy4ever.github.io/project/selfdriving/corner_hu6fc18a2d765f8ff78a9aac314412fcfc_70131_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1220&#34; height=&#34;930&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Fig. 1 The vehicle path at the corner. &lt;br /&gt;The red dots are the central line of the track and the rectangle is the obstacle.&lt;br /&gt; The blue line is the vehcle path.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Simulated vehicle driving in Matlab to race on predefined track and avoid random obstacles. Applied bicycle model and MPC (Model Predictive Control) for motion planning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
